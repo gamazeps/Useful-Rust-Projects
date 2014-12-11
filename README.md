@@ -10,7 +10,7 @@ is a great way to get more familiar with the language.
 
 The point is also to have a place for coders looking to contribute to Rust to find what is really needed.
 
-(it's without shamelessly inspired from @brson [rust links](http://brson.github.io/rustlinks.html), the reason
+(it's shamelessly inspired / copied from @brson [rust links](http://brson.github.io/rustlinks.html), the reason
 is mainly to have a community repository that evolves with time instead of a static page)
 
 Feel free to add new projects / libraries via pull requests.
@@ -69,6 +69,45 @@ Important libraries which could use more contributors
 
 TODO from scratch
 ---------------------
+Note : this is hamelessly inspired/copied from @brson again ([source](https://mail.mozilla.org/pipermail/rust-dev/2014-June/010139.html)
 
-* Either a port or a binding of [Reactivex*](https://github.com/ReactiveX/RxJava), significance : functionnal reactive programming is
-a programming paradigm with increasing popularity.
+# Either a port or a binding of [Reactivex*](https://github.com/ReactiveX/RxJava)
+significance : functionnal reactive programming is a programming paradigm with increasing popularity.
+# [Internationalization](https://github.com/mozilla/rust/issues/14494)
+ECMA 402 is a standard for internationalization, dealing with the 
+automatic conversion of various information based on locale. Rust's core 
+libraries provide *no* internationalization. A core problem here will be 
+determining how Rust should think about locales.
+# [Localization](https://github.com/mozilla/rust/issues/14495)
+This may depend on the previous for locale support, if nothing else. 
+This is largely about the human-assisted translation of strings. We 
+would like to experiment with a new Moco-developed standard for this, 
+called L20N. This project will be about figuring out how the L20N API 
+can be adapted to Rust.
+# [Unicode (ICU)](https://github.com/mozilla/rust/issues/14656)
+The exact path forward here may require a bit of discussion still, but I 
+think the most viable approach starts with binding libicu and wrapping 
+in a Rust API.
+# [Date/Time](https://github.com/mozilla/rust/issues/14657)
+Our time crate is very minimal, and the API looks dated. This is a hard 
+problem and JodaTime seems to be well regarded so let's just copy it.
+# [Crypto](https://github.com/mozilla/rust/issues/14655)
+
+We've previously made the decision not to distribute any crypto with 
+Rust at all, but this is probably not tenable since crypto is used 
+everywhere. My current opinion is that we should not distribute any 
+crypto /written in Rust/, but that distributing bindings to proven 
+crypto is fine.
+
+Figure out a strategy here, build consensus, then start implementing a 
+robust crypto library out of tree, with the goal of merging into the 
+main distribution someday, and possibly - far in the future - 
+reimplementing in Rust. There are some existing efforts along these 
+lines that should be evaluated for this purpose.
+
+There are a lot of people interested in, and working on, this subject, 
+and crypto potentially interacts with many libraries (like HTTP) so 
+coordination is needed.
+# [SQL](https://github.com/mozilla/rust/issues/14658)
+Generic SQL bindings. I'm told SqlAlchemy core is a good system to learn 
+from.
