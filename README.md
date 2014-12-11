@@ -69,7 +69,7 @@ Important libraries which could use more contributors
 
 TODO from scratch
 ---------------------
-Note : this is hamelessly inspired/copied from @brson again ([source](https://mail.mozilla.org/pipermail/rust-dev/2014-June/010139.html)
+Note : this is hamelessly inspired/copied from @brson again ([source](https://mail.mozilla.org/pipermail/rust-dev/2014-June/010139.html))
 
 # Either a port or a binding of [Reactivex*](https://github.com/ReactiveX/RxJava)
 significance : functionnal reactive programming is a programming paradigm with increasing popularity.
