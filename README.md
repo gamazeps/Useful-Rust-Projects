@@ -1,4 +1,4 @@
-Usefull-Rust-Project
+Useful-Rust-Project
 ====================
 
 List of community wanted important libraries.
