@@ -44,7 +44,6 @@ Important libraries which could use more contributors
 * [rust-chrono](https://github.com/lifthrasiir/rust-chrono) : Time library. Rust needs one.
 * [rust-crypto](http://rust-ci.org/DaGenix/rust-crypto) : Pure-Rust crypto. Significance: crypto is an obvious domain for Rust.
 * [rust-csv](https://github.com/BurntSushi/rust-csv) : A CSV parser with type based decoding for Rust.
-* [Rust-Empty](https://github.com/bvssvni/rust-empty/) : Popular Makefile template. Significance: making users' lives better.
 * [rust-encoding](http://rust-ci.org/lifthrasiir/rust-encoding) : Character encoding. Significance: Rust currently lacks support for most non-utf8 encodings.
 * [rust-lua](http://rust-ci.org/kballard/rust-lua) : Significance: some types of apps are going to want to pair Rust with a scripting language. Lua is a good one.
 * [rust-openssl](http://rust-ci.org/sfackler/rust-openssl) : OpenSSL bindings.
