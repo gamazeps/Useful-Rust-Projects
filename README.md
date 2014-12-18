@@ -52,7 +52,7 @@ Important libraries which could use more contributors
 * [rust-protobuf](http://rust-ci.org/stepancheg/rust-protobuf) : Implementation of popular data transfer protocol.
 * [RustPy](https://github.com/lukemetz/rustpy) : Interop between Rust and Python. Significance: embedding Rust in other stacks is one of Rust's major opportunities.
 * [rust-rosetta](https://github.com/hoverbear/rust-rosetta) : Code examples.
-* [rustsqlite](http://rust-ci.org/kud1ing/rustsqlite) : Bindings to the best database ever.
+* [rustsqlite](http://rust-ci.org/linuxfood/rustsqlite) : Bindings to the best database ever.
 * [rust-sdl2](http://rust-ci.org/AngryLawyer/rust-sdl2) : Bindings to SDL2. Popular game-oriented OS abstraction layer, like GLFW. Significance: popular with game programmers, Valve-supported.
 * Rust standard library in the [main repository](https://github.com/rust-lang/rust).
 * [rust-url](https://github.com/lifthrasiir/rust-url) : Spec-correct URL handling, used by Servo.
