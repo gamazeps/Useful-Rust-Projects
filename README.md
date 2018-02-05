@@ -55,7 +55,7 @@ Important libraries which could use more contributors
 * [rustsqlite](http://rust-ci.org/linuxfood/rustsqlite) : Bindings to the best database ever.
 * [rust-sdl2](http://rust-ci.org/AngryLawyer/rust-sdl2) : Bindings to SDL2. Popular game-oriented OS abstraction layer, like GLFW. Significance: popular with game programmers, Valve-supported.
 * Rust standard library in the [main repository](https://github.com/rust-lang/rust).
-* [rust-url](https://github.com/lifthrasiir/rust-url) : Spec-correct URL handling, used by Servo.
+* [rust-url](https://github.com/servo/rust-url) : Spec-correct URL handling, used by Servo.
 * [rust-xml](https://github.com/netvl/rust-xml) : XML. SAX-like. Significance: everybody needs a little XML.
 * [RustyXML](https://github.com/Florob/RustyXML) : XML. SAX-like. Significance: everybody needs a little XML.
 * [suruga](https://github.com/klutzy/suruga) : TLS in Rust.
